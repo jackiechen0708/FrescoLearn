@@ -24,4 +24,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.facebook.fresco:fresco:0.13.0'
+    // For animated GIF support
+    compile 'com.facebook.fresco:animated-gif:0.13.0'
+
+    // For WebP support, including animated WebP
+    compile 'com.facebook.fresco:animated-webp:0.13.0'
+    compile 'com.facebook.fresco:webpsupport:0.13.0'
+
+    // For WebP support, without animations
+    compile 'com.facebook.fresco:webpsupport:0.13.0'
 }
